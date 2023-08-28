@@ -3,17 +3,20 @@ import TodoFeature from './features/todo/Pages';
 import AlbumFeature from './features/Album/Pages';
 import Data from './features/connect/connectdata';
 import Product from './features/connect/product';
-// import Header from './features/connect/header';
+import Header from './features/connect/header';
 
 function App() {
   return (
-    
+
     <div className="App">
-      {/* <Header /> */}
+
+      <Header />
       {/* <TodoFeature /> */}
       <AlbumFeature />
       <Data />
-      <Product></Product>
+      <div className='container'>
+        <Product></Product>
+      </div>
     </div>
   );
 }
