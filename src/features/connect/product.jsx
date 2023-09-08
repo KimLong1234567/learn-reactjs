@@ -33,7 +33,7 @@ function Product() {
     return (
         <div className="row">
             {data.map((item, index) => (
-                <div className="col-2 border border-info" id="pow" key={item.pet_prod_id}>
+                <div className="col-2 border border-info  " id="pow" key={item.pet_prod_id}>
                     {/* <img src={myImage} alt="alo" /> */}
                     <div className="" style={{ margin: "0 30px 30px 30px" }} >
                         <a href="./">

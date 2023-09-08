@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 import ReactDOM from 'react-dom';
 import MyImage from './logo.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery/dist/jquery.slim.min.js';
+import 'popper.js/dist/umd/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import "./header.scss";
 
 function Header() {
     return (
@@ -22,7 +28,7 @@ function Header() {
                     <div className="d-flex">
                         <a className="p-2 bg-primary text-light border border-info rounded-left rounded-right " href="./" style={{ marginRight: '10px' }}>Trang chủ</a>
                         <a className="p-2 bg-primary text-light border border-info rounded-left rounded-right" href="./" style={{ marginRight: '10px' }}>Đăng Ký</a>
-                        <a className="p-2 bg-primary text-light border border-info rounded-left rounded-right" href="./" style={{ marginRight: '10px' }}>Đăng nhập</a>';
+                        <a className="p-2 bg-primary text-light border border-info rounded-left rounded-right" href="./" style={{ marginRight: '10px' }}>Đăng nhập</a>
                         <a className="p-2 bg-primary text-light border border-info" href="./" style={{ marginRight: '10px' }}>ADMIN</a>
                         <a className="p-2 bg-primary text-light border border-info rounded-left rounded-right" href="./" style={{ marginRight: '10px' }}>Giỏ hàng</a>
                         <a className="p-2 bg-primary text-light border border-info rounded-left rounded-right" href="./" style={{ marginRight: '10px' }}>Liên Hệ</a>

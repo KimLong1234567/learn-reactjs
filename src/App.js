@@ -4,6 +4,7 @@ import AlbumFeature from './features/Album/Pages';
 import Data from './features/connect/connectdata';
 import Product from './features/connect/product';
 import Header from './features/connect/header';
+import Manage from './features/connect/productmange';
 
 function App() {
   return (
@@ -14,9 +15,8 @@ function App() {
       {/* <TodoFeature /> */}
       <AlbumFeature />
       <Data />
-      <div className='container'>
-        <Product></Product>
-      </div>
+      {/* <Product></Product> */}
+      <Manage />
     </div>
   );
 }
